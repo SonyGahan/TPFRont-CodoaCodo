@@ -5,50 +5,54 @@
     <title>Presentacion Sonia Pereira</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="img/iconosolapa.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <div id="contenedorprincipal">
-        <div id="encabezado">
-            <div class="container-xxl" style="padding: 1%;">
-                <div class="row align-items-center" style="padding-left: 1%;">
-                    <div class="col-1">
-                        <a class="justify-content-end" href="#">
-                            <img src="img/codoacodo.png" alt="..." width="110" height="64">
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <p class="text-start text-secondary mx-3 mt-3 text-light">Conf Bs As</p>
-                    </div>
-                    <div class="col-9">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <small><a class="nav-link active text-light" aria-current="page" href="#">La
-                                        conferencia</a></small>
-                            </li>
-                            <li class="nav-item">
-                                <small><a class="nav-link text-white-50" href="#">Los oradores</a></small>
-                            </li>
-                            <li class="nav-item">
-                                <small><a class="nav-link text-white-50" href="#">El lugar y la fecha</a></small>
-                            </li>
-                            <li class="nav-item">
-                                <small><a class="nav-link text-white-50">Conviértete en orador</a></small>
-                            </li>
-                            <li class="nav-item">
-                                <small><a class="nav-link text-success">Comprar tickets</a></small>
-                            </li>
-                        </ul>
+        <div id="encabezado" class="cuadofijopadre">
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid d-flex justify-content-evenly">
+                    <div class="row align-items-center" style="padding-left: 1%;">
+                        <div class="col-1 justify-content-end">
+                            <a>
+                                <img src="img/codoacodo.png" alt="..." width="110" height="64">
+                            </a>
+                        </div>
+                        <div class="col-2 align-items-center">
+                            <p class="text-start mx-3 mt-3 text-light letraconfbaires">Conf Bs As</p>
+                        </div>
+                        <div class="col-9">
+                            <ul class="nav justify-content-end letranav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="#">La
+                                        conferencia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white-50" href="#">Los oradores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white-50">Conviértete en orador</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-success">Comprar tickets</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </nav>
 
-            <div id="carouselExampleIndicators" class="carousel slide opacity-25" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide opacity-25 cuadofijopadre"
+                data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,25 +88,28 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div>
 
-                <div class="cuadradofijo flex-column">
-                    <div class="confbaires p-2">Conf Bs As</div>
-                    <div><p class="textofijo p-2">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
-                        y la experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento,
-                        a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
-                    </p></div>
+            <div class="cuadradofijo">
+                <div class="confbaires p-2">Conf Bs As</div>
+                <div>
+                    <p class="textofijo p-2">Bs As llega por primera vez a Argentina. Un evento para compartir con
+                        nuestra comunidad el conocimiento
+                        y la experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
+                        miembros del evento,
+                        a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
+                        esperamos!
+                    </p>
+                </div>
+                <div class="row justify-content-end p-3 ">
                     <div>
-                        <div class="col-sm-12 p-4 row">
-                            <div class="col-6">
-                                <button class="botonorador" type="button">Quiero ser orador</button>
-                            </div>
-                            <div class="col-6">
-                                <button class="botoncomprar" type="button">Comprar tickets</button>
-                            </div>
-                        </div> 
+                        <a href="#" class="btn botonorador btn-sm p-1">Quiero ser orador</a>
+                        <a href="#" class="btn btn-success btn-sm">Comprar tickets</a>
                     </div>
                 </div>
             </div>
+
+
 
         </div>
 
@@ -120,10 +127,10 @@
                         <div class="card h-100">
                             <img src="img/cards/foto1.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body textocard">
-                                <a href="#" class="btn btn-warning btn-sm">JavaScript</a>
-                                <a href="#" class="btn btn-success btn-sm">React</a>
-                                <p><strong>Steve Jobs</strong></p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
+                                <span class="badge text-bg-warning">JavaScript</span>
+                                <span class="badge text-white bg-success">React</span>
+                                <h3 class="my-1 letranombres">Steve Jobs</h3>
+                                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
                                     Adipisci ut
                                     repellendus, magni eveniet vitae tenetur distinctio, in saepe hic illo
                                     veritatis, odit sequi? Nostrum error consequuntur reiciendis ipsum?</p>
@@ -135,10 +142,10 @@
                         <div class="card h-100">
                             <img src="img/cards/foto2.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body textocard">
-                                <a href="#" class="btn btn-warning btn-sm">JavaScript</a>
-                                <a href="#" class="btn btn-success btn-sm">React</a>
-                                <p><strong>Bill Gates</strong></p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
+                                <span class="badge text-bg-warning">JavaScript</span>
+                                <span class="badge text-white bg-success">React</span>
+                                <h3 class="my-1 letranombres">Bill Gates</h3>
+                                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
                                     Adipisci ut
                                     repellendus, magni eveniet vitae tenetur distinctio, in saepe hic illo
                                     veritatis, odit sequi? Nostrum error consequuntur reiciendis ipsum?</p>
@@ -150,10 +157,10 @@
                         <div class="card h-100">
                             <img src="img/cards/foto3.jpg" class="card-img-top img-fluid" alt="...">
                             <div class="card-body textocard">
-                                <a href="#" class="btn btn-secondary btn-sm">Negocios</a>
-                                <a href="#" class="btn btn-danger btn-sm">Startups</a>
-                                <p><strong>Ada Loverance</strong></p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
+                                <span class="badge text-bg-secondary">Negocios</span>
+                                <span class="badge text-white bg-danger">Startups</span>
+                                <h3 class="my-1 letranombres">Ada Loverance</h3>
+                                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, id.
                                     Adipisci ut
                                     repellendus, magni eveniet vitae tenetur distinctio, in saepe hic illo
                                     veritatis, odit sequi? Nostrum error consequuntur reiciendis ipsum?</p>
@@ -176,24 +183,22 @@
                                         <div>
                                             <h5 class="card-title baires">Bs As - Octubre</h5>
                                         </div>
-                                        <div>
-                                            <small>
-                                                <p class="card-text textocard">La Provincia de Buenos Aires​ es una de
-                                                    las veinticuatro
-                                                    jurisdicciones de primer orden​ o «estados autogobernados» que
-                                                    conforman el
-                                                    país, uno de los veinticuatro distritos electorales legislativos
-                                                    nacionales​ y una de las veintitrés provincias que hay en la
-                                                    República
-                                                    Argentina.
-                                                    En tiempos coloniales consolidó su prosperidad a través de vaquerías
-                                                    y
-                                                    saladeros y ya en el período independentista devino en un Estado
-                                                    autónomo.
-                                                </p>
-                                            </small>
+                                        <div class="textocard my-3">
+                                            <p class="card-text">La Provincia de Buenos Aires​ es una de
+                                                las veinticuatro
+                                                jurisdicciones de primer orden​ o «estados autogobernados» que
+                                                conforman el
+                                                país, uno de los veinticuatro distritos electorales legislativos
+                                                nacionales​ y una de las veintitrés provincias que hay en la
+                                                República
+                                                Argentina.
+                                                En tiempos coloniales consolidó su prosperidad a través de vaquerías
+                                                y
+                                                saladeros y ya en el período independentista devino en un Estado
+                                                autónomo.
+                                            </p>
                                         </div>
-                                        <div>
+                                        <div class="my-3">
                                             <button type="button" class="btn btn-dark btn-sm btn-outline-light">Conocé
                                                 más</button>
                                         </div>
@@ -212,7 +217,8 @@
                         <h2 class="mb-0">ORADOR</h2>
                     </div>
                     <div class="contenedor text-black p-1 d-flex justify-content-center">
-                        <p class="mb-0">Anótate como orador para dar una <a href="#" class="formatolink">charla ignite</a>. Cuéntanos de qué quieres hablar!
+                        <p class="mb-0">Anótate como orador para dar una <a href="#" class="formatolink">charla
+                                ignite</a>. Cuéntanos de qué quieres hablar!
                         </p>
                     </div>
 
@@ -247,7 +253,7 @@
                                                 <p class="text-recuerda">Recuerda incluir un título para tu charla</p>
                                             </div>
 
-                                            <div class="d-grid gap-2">
+                                            <div class="d-grid gap-2 my-3">
                                                 <button class="botonenviar" type="button">Enviar</button>
                                             </div>
                                         </form>
@@ -261,30 +267,29 @@
 
             <div id="piedepagina">
                 <div class="container-xxl" style="padding: 1%;">
-                    <div class="row align-items-center" style="padding-left: 1%;">
+                    <div class="row align-items-center d-flex" style="padding-left: 1%;">
                         <div class="col-12">
-                            <ul class="nav justify-content-center">
+                            <ul class="nav justify-content-center letrapie">
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light" href="#">Preguntas
-                                            Frecuentes</a></small>
+                                    <a class="nav-link active text-light" href="#">Preguntas Frecuentes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light" href="#">Contáctenos</a></small>
+                                    <a class="nav-link active text-light" href="#">Contáctenos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light" href="#">Prensa</a></small>
+                                    <a class="nav-link active text-light" href="#">Prensa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light">Conferencias</a></small>
+                                    <a class="nav-link active text-light">Conferencias</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light">Términos y condiciones</a></small>
+                                    <a class="nav-link active text-light">Términos y condiciones</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small> <a class="nav-link active text-light">Privacidad</a></small>
+                                    <a class="nav-link active text-light">Privacidad</a>
                                 </li>
                                 <li class="nav-item">
-                                    <small><a class="nav-link active text-light">Estudiantes</a></small>
+                                    <a class="nav-link active text-light">Estudiantes</a>
                                 </li>
                             </ul>
                         </div>
