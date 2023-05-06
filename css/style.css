@@ -1,212 +1,197 @@
-*{margin: 0; padding: 0;}
-
-
-#contenedorprincipal
-{
-    background-color: rgb(177, 175, 175) !important;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-
-#encabezado
-{
-    margin-top: 3px;
-    background-color: rgb(20, 20, 20);
-    width: 90%;
-    height: 100%;
-    margin: auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 
-.fijado{
+#encabezado {
+  margin-top: 3px;
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+
+.fijado {
   position: absolute;
-  bottom: 0;     
-right: 1rem;
-font-size: 1,5vw;
-font-weight: 80%;
-text-align: end;
-padding-left: 30%;
-padding-right: 10%;
-padding-bottom: 10%;
+  bottom: 0;
+  right: 1rem;
+  font-size: 1, 5vw;
+  font-weight: 80%;
+  text-align: end;
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-bottom: 10%;
 }
 
-.fijado h2{
+.fijado h2 {
   text-align: end;
   color: #F5EEF8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 100%;
-  
+
 }
 
-.fijado p{
+.fijado p {
   color: #F5EEF8;
 }
 
 
-#cuerpo
-{
-    background-color: rgb(250, 250, 250);
-    width: 90%;
-    height: 100%;
-    margin: auto;
+#cuerpo {
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 
 #piedepagina {
-    background: #09182b;
-    width: 100%;
-    height: 70%;
-    margin: auto;
-    overflow: hidden;
-  }
+  background: #09182b;
+  width: 100%;
+  height: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
-  small {
-    text-align: justify;
-    color: #F5EEF8;
-    font-size: 50%;
-    line-height: 130%;
-    margin: 1%;
-    padding: 1%;
-  }
+small {
+  text-align: justify;
+  color: #F5EEF8;
+  font-size: 50%;
+  line-height: 130%;
+  margin: 1%;
+  padding: 1%;
+}
 
 
 .baires {
-    color: #F5EEF8;
-    line-height: 100%;
-  }
+  color: #F5EEF8;
+  line-height: 100%;
+}
 
-  .tituloform {
-    text-align: center;
-    font-size: 100%;
-    line-height: 90%;
-    margin: 1%;
-    padding: 1%;
-  }
+.tituloform {
+  text-align: center;
+  font-size: 100%;
+  line-height: 90%;
+  margin: 1%;
+  padding: 1%;
+}
 
-  .tituloform p {
-    font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.tituloform p {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .tituloform h2 {
-    font-size: 26px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.tituloform h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .tituloform h6 {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.tituloform h6 {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .botonenviar {
-    background-color: #44b414;
-    border: none;
-    box-shadow: none;
-    outline:none;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #F5EEF8;
-    font-size: 80%;
-    border-radius: 3px;
-    height: 35px;
-  }
+.botonenviar {
+  background-color: #399711;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F5EEF8;
+  font-size: 80%;
+  border-radius: 3px;
+  height: 35px;
+}
 
-  .textocard p {
-    text-align: justify;
-    font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.textocard p {
+  text-align: justify;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .text-recuerda {
-    font-size: 11.5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 1px;
-    color: #5d5b5e;
-  }
+.text-recuerda {
+  font-size: 11.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  color: #5d5b5e;
+}
 
-  .cuadofijopadre{
-    position:relative;
-    z-index:1;
-    border: none;
-    box-shadow: none;
-    outline:none;
-  }
+.cuadofijopadre {
+  position: relative;
+  z-index: 1;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
 
-  .cuadradofijo {
-    background-color: transparent;
-    position: relative;
-    left: 500px;
-    top: -350px;
-    width: 420px;
-    height: 1px;
-    z-index:2;
-    border: none;
-    box-shadow: none;
-    outline:none;
-  }
+.cuadradofijo {
+  background-color: transparent;
+  position: relative;
+  left: 500px;
+  top: -350px;
+  width: 420px;
+  height: 1px;
+  z-index: 2;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
 
-  .confbaires {
-    color: #F5EEF8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    line-height: 100%;
-    text-align: right;
-  }
+.confbaires {
+  color: #F5EEF8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: right;
+}
 
-  .textofijo {
-    color: #F5EEF8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 18px;
-    text-align: right;
-  }
+.textofijo {
+  color: #F5EEF8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: right;
+}
 
-  
-  .botoncomprar {
-    background-color: #44b414;
-    border: none;
-    box-shadow: none;
-    outline:none;
-    text-align: center;
-    margin-bottom:0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #F5EEF8;
-    font-size: 80%;
-    border-radius: 3px;
-    height: 32px;
-    width: 120px;
-  }
 
-  .formatolink {
-    color: #7a797a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
+.botoncomprar {
+  background-color: #399711;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F5EEF8;
+  font-size: 84%;
+}
 
-  .letranav {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-  }
+.formatolink {
+  color: #7a797a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 
-  .letrapie {
-    text-align: justify;
-    font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.letranav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
 
-  .letraconfbaires {
-    text-align: center;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.letrapie {
+  text-align: justify;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .letranombres {
-    text-align: left;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.letraconfbaires {
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.letranombres {
+  text-align: left;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
