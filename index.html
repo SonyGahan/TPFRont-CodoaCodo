@@ -14,100 +14,94 @@
 <body>
 
     <div id="contenedorprincipal">
-        <div id="encabezado" class="cuadofijopadre">
+        <div id="encabezado">
 
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid d-flex justify-content-evenly">
-                    <div class="row align-items-center" style="padding-left: 1%;">
-                        <div class="col-1 justify-content-end">
-                            <a>
-                                <img src="img/codoacodo.png" alt="..." width="110" height="64">
-                            </a>
-                        </div>
-                        <div class="col-2 align-items-center">
-                            <p class="text-start mx-3 mt-3 text-light letraconfbaires">Conf Bs As</p>
-                        </div>
-                        <div class="col-9">
-                            <ul class="nav justify-content-end letranav">
-                                <li class="nav-item">
-                                    <a class="nav-link active text-light" aria-current="page" href="#">La
-                                        conferencia</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white-50" href="#">Los oradores</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white-50">Conviértete en orador</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-success">Comprar tickets</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-1 justify-content-end">
+                        <a>
+                            <img src="img/codoacodo.png" alt="..." width="110" height="64">
+                        </a>
+                    </div>
+                    <div class="col-2 justify-content-end">
+                        <p class="text-start mx-3 mt-3 text-light letraconfbaires">Conf Bs As</p>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="nav justify-content-end letranav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">La conferencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50" href="#">Los oradores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white-50">Conviértete en orador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success">Comprar tickets</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
 
-            <div id="carouselExampleIndicators" class="carousel slide opacity-25 cuadofijopadre"
-                data-bs-ride="carousel">
-                <div class="carousel-indicators">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators opacity-25">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active opacity-25">
                         <img src="img/slider/slider1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item opacity-25">
                         <img src="img/slider/slider2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item opacity-25">
                         <img src="img/slider/slider3.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/slider/slider4.jpg" class="d-block w-100" alt="...">
-                    </div>
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev opacity-25" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon opacity-25" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next opacity-25" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon opacity-25" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
 
-            <div class="cuadradofijo">
-                <div class="confbaires p-2">Conf Bs As</div>
-                <div>
-                    <p class="textofijo p-2">Bs As llega por primera vez a Argentina. Un evento para compartir con
+                <div class="fijado">
+                    <h2>Conf Bs As</h2>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con
                         nuestra comunidad el conocimiento
                         y la experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
                         miembros del evento,
                         a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
                         esperamos!
                     </p>
-                </div>
-                <div class="row justify-content-end p-1">
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-outline-light me-md-2 btn-sm" type="button">Quiero ser orador</button>
-                        <button class="btn btn-success btn-sm" type="button">Comprar tickets</button>
-                      </div>
+
+
+                    <button class="btn btn-outline-light me-md-2 btn-sm" type="button">Quiero ser orador</button>
+                    <button class="btn btn-success btn-sm" type="button">Comprar tickets</button>
+
                 </div>
             </div>
+
         </div>
 
         <div id="cuerpo">
@@ -299,8 +293,10 @@
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+    </div>
+
 </body>
 
 </html>

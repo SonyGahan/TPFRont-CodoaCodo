@@ -18,6 +18,32 @@
     margin: auto;
 }
 
+
+.fijado{
+  position: absolute;
+  bottom: 0;     
+right: 1rem;
+font-size: 1,5vw;
+font-weight: 80%;
+text-align: end;
+padding-left: 30%;
+padding-right: 10%;
+padding-bottom: 10%;
+}
+
+.fijado h2{
+  text-align: end;
+  color: #F5EEF8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 100%;
+  
+}
+
+.fijado p{
+  color: #F5EEF8;
+}
+
+
 #cuerpo
 {
     background-color: rgb(250, 250, 250);
